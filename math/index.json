@@ -1,0 +1,28 @@
+{
+    "modes": [
+        {
+            "name": "BASE",
+            "cost": 1,
+            "events": "books_BASE.jsonl.zst",
+            "weights": "lookUpTable_BASE_0.csv"
+        },
+        {
+            "name": "BOOST",
+            "cost": 3,
+            "events": "books_BOOST.jsonl.zst",
+            "weights": "lookUpTable_BOOST_0.csv"
+        },
+        {
+            "name": "BONUS",
+            "cost": 100,
+            "events": "books_BONUS.jsonl.zst",
+            "weights": "lookUpTable_BONUS_0.csv"
+        },
+        {
+            "name": "SUPER",
+            "cost": 300,
+            "events": "books_SUPER.jsonl.zst",
+            "weights": "lookUpTable_SUPER_0.csv"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 520" width="120" height="520">
+  <!-- FORTUNE NEKO — halo d'anticipation de colonne (pulse géré par le code) -->
+  <defs>
+    <linearGradient id="antiGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFD75E" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFD75E" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFD75E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="520" fill="url(#antiGlow)"/>
+  <rect x="8" y="6" width="104" height="508" rx="14" fill="none" stroke="#FFC93C" stroke-width="5" opacity="0.9"/>
+  <rect x="16" y="14" width="88" height="492" rx="10" fill="none" stroke="#FFF0B8" stroke-width="2.5" opacity="0.8"/>
+  <!-- étincelles -->
+  <g fill="#FFE9A0">
+    <path d="M60 10 L65 22 L77 24 L67 32 L70 44 L60 37 L50 44 L53 32 L43 24 L55 22 Z"/>
+    <path d="M60 476 L65 488 L77 490 L67 498 L70 510 L60 503 L50 510 L53 498 L43 490 L55 488 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" width="700" height="320">
+  <!-- FORTUNE NEKO — plaque big win (le texte/montant est rendu par le jeu) -->
+  <defs>
+    <linearGradient id="wpGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE9A0"/>
+      <stop offset="0.5" stop-color="#F7C544"/>
+      <stop offset="1" stop-color="#D8920A"/>
+    </linearGradient>
+    <linearGradient id="wpRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D31430"/>
+      <stop offset="1" stop-color="#7E0E1E"/>
+    </linearGradient>
+    <radialGradient id="wpGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFD75E" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#FFD75E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="350" cy="160" rx="345" ry="158" fill="url(#wpGlow)"/>
+  <!-- rubans latéraux -->
+  <path d="M70 130 L8 110 L30 150 L8 190 L70 172 Z" fill="url(#wpRed)" stroke="#3A1414" stroke-width="6"/>
+  <path d="M630 130 L692 110 L670 150 L692 190 L630 172 Z" fill="url(#wpRed)" stroke="#3A1414" stroke-width="6"/>
+  <!-- plaque -->
+  <rect x="60" y="70" width="580" height="180" rx="36" fill="url(#wpRed)" stroke="#3A1414" stroke-width="7"/>
+  <rect x="74" y="84" width="552" height="152" rx="26" fill="none" stroke="url(#wpGold)" stroke-width="8"/>
+  <!-- toit -->
+  <path d="M50 80 Q350 30 650 80 L630 104 Q350 60 70 104 Z" fill="url(#wpGold)" stroke="#3A1414" stroke-width="6"/>
+  <!-- grelot central haut -->
+  <circle cx="350" cy="58" r="22" fill="url(#wpGold)" stroke="#3A1414" stroke-width="5"/>
+  <path d="M350 50 L350 62 M340 66 Q350 72 360 66" stroke="#3A1414" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- étincelles -->
+  <g fill="#FFE9A0" stroke="#3A1414" stroke-width="3">
+    <path d="M120 40 L126 52 L139 54 L129 62 L132 75 L120 68 L108 75 L111 62 L101 54 L114 52 Z"/>
+    <path d="M580 36 L585 46 L596 48 L588 55 L590 66 L580 60 L570 66 L572 55 L564 48 L575 46 Z"/>
+    <path d="M70 250 L74 258 L83 260 L76 265 L78 274 L70 269 L62 274 L64 265 L57 260 L66 258 Z"/>
+    <path d="M634 246 L638 254 L647 256 L640 261 L642 270 L634 265 L626 270 L628 261 L621 256 L630 254 Z"/>
+  </g>
+</svg>

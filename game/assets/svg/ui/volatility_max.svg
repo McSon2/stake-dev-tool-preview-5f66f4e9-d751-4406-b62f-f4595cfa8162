@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48">
+  <!-- FORTUNE NEKO — indicateur de volatilité (maximale) : 5 éclairs allumés -->
+  <g stroke="#3A1414" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M20 6 L8 26 L17 26 L13 42 L29 20 L20 20 L26 6 Z" fill="#FFC93C"/>
+    <path d="M60 6 L48 26 L57 26 L53 42 L69 20 L60 20 L66 6 Z" fill="#FFC93C"/>
+    <path d="M100 6 L88 26 L97 26 L93 42 L109 20 L100 20 L106 6 Z" fill="#FFC93C"/>
+    <path d="M140 6 L128 26 L137 26 L133 42 L149 20 L140 20 L146 6 Z" fill="#FFC93C"/>
+    <path d="M180 6 L168 26 L177 26 L173 42 L189 20 L180 20 L186 6 Z" fill="#FFC93C"/>
+  </g>
+</svg>

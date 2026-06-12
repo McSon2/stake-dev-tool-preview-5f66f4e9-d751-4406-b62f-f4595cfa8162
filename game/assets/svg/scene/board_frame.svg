@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 580" width="680" height="580">
+  <!-- FORTUNE NEKO — cadre laqué du board (600×500 intérieur, bordure 40) -->
+  <defs>
+    <linearGradient id="bfLaq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D31430"/>
+      <stop offset="0.5" stop-color="#9E0B22"/>
+      <stop offset="1" stop-color="#6E0715"/>
+    </linearGradient>
+    <linearGradient id="bfGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE08A"/>
+      <stop offset="1" stop-color="#D8920A"/>
+    </linearGradient>
+  </defs>
+  <!-- cadre extérieur laqué -->
+  <path d="M40 22 L640 22 Q658 22 658 40 L658 540 Q658 558 640 558 L40 558 Q22 558 22 540 L22 40 Q22 22 40 22 Z
+           M48 60 L632 60 L632 520 L48 520 Z"
+        fill="url(#bfLaq)" fill-rule="evenodd" stroke="#3A1414" stroke-width="6"/>
+  <!-- liseré or intérieur -->
+  <rect x="44" y="56" width="592" height="468" fill="none" stroke="url(#bfGold)" stroke-width="7" rx="6"/>
+  <!-- toit de sanctuaire au sommet -->
+  <path d="M20 30 Q340 -18 660 30 L640 56 Q340 16 40 56 Z" fill="url(#bfGold)" stroke="#3A1414" stroke-width="6"/>
+  <path d="M310 10 L370 10 L362 -6 Q340 -14 318 -6 Z" fill="url(#bfGold)" stroke="#3A1414" stroke-width="5"/>
+  <!-- coins ornés -->
+  <g fill="url(#bfGold)" stroke="#3A1414" stroke-width="5">
+    <circle cx="40" cy="40" r="16"/>
+    <circle cx="640" cy="40" r="16"/>
+    <circle cx="40" cy="540" r="16"/>
+    <circle cx="640" cy="540" r="16"/>
+  </g>
+  <g fill="#B3001E">
+    <circle cx="40" cy="40" r="6"/><circle cx="640" cy="40" r="6"/>
+    <circle cx="40" cy="540" r="6"/><circle cx="640" cy="540" r="6"/>
+  </g>
+  <!-- pampilles bas -->
+  <g stroke="#3A1414" stroke-width="4">
+    <path d="M120 558 L120 572 M560 558 L560 572" />
+    <circle cx="120" cy="578" r="7" fill="url(#bfGold)"/>
+    <circle cx="560" cy="578" r="7" fill="url(#bfGold)"/>
+  </g>
+</svg>

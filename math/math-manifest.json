@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "chunks": [
+        {
+          "fileName": "lookUpTable_BASE_0.csv.b020284c",
+          "sha256": "b020284c9c38f8a89f96d11860702d856b8028a47f7f71643b8c8c68a1c7bf80",
+          "size": 827,
+          "url": "./math/chunks/lookUpTable_BASE_0.csv.b020284c"
+        }
+      ],
+      "name": "lookUpTable_BASE_0.csv",
+      "sha256": "b020284c9c38f8a89f96d11860702d856b8028a47f7f71643b8c8c68a1c7bf80",
+      "size": 827
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "books_SUPER.jsonl.zst.80e4796e",
+          "sha256": "80e4796eae49b7d95c6455977806e9faab5a515baeb06cdfb925f936a0e7b424",
+          "size": 101619,
+          "url": "./math/chunks/books_SUPER.jsonl.zst.80e4796e"
+        }
+      ],
+      "name": "books_SUPER.jsonl.zst",
+      "sha256": "80e4796eae49b7d95c6455977806e9faab5a515baeb06cdfb925f936a0e7b424",
+      "size": 101619
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "lookUpTable_SUPER_0.csv.040dbf3e",
+          "sha256": "040dbf3e5ada306e100f5a81b55de391f61b9fa6f08f9fc15eb773e6c60334be",
+          "size": 905,
+          "url": "./math/chunks/lookUpTable_SUPER_0.csv.040dbf3e"
+        }
+      ],
+      "name": "lookUpTable_SUPER_0.csv",
+      "sha256": "040dbf3e5ada306e100f5a81b55de391f61b9fa6f08f9fc15eb773e6c60334be",
+      "size": 905
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "lookUpTable_BONUS_0.csv.2bffde85",
+          "sha256": "2bffde8557cfad1e5c2549f7033667fd9765c490f8a1746803b74503a58f4777",
+          "size": 895,
+          "url": "./math/chunks/lookUpTable_BONUS_0.csv.2bffde85"
+        }
+      ],
+      "name": "lookUpTable_BONUS_0.csv",
+      "sha256": "2bffde8557cfad1e5c2549f7033667fd9765c490f8a1746803b74503a58f4777",
+      "size": 895
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "lookUpTable_BOOST_0.csv.0cec55b1",
+          "sha256": "0cec55b15214c98a115607f0a7a2f51dd1ec92c07f0b9064cd4be8710b6e735c",
+          "size": 848,
+          "url": "./math/chunks/lookUpTable_BOOST_0.csv.0cec55b1"
+        }
+      ],
+      "name": "lookUpTable_BOOST_0.csv",
+      "sha256": "0cec55b15214c98a115607f0a7a2f51dd1ec92c07f0b9064cd4be8710b6e735c",
+      "size": 848
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "books_BOOST.jsonl.zst.e4936d2f",
+          "sha256": "e4936d2f40d1d3ea969ed1ba45ba02e86f4a595717e94db8941ef9ec7cd282f5",
+          "size": 39832,
+          "url": "./math/chunks/books_BOOST.jsonl.zst.e4936d2f"
+        }
+      ],
+      "name": "books_BOOST.jsonl.zst",
+      "sha256": "e4936d2f40d1d3ea969ed1ba45ba02e86f4a595717e94db8941ef9ec7cd282f5",
+      "size": 39832
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "books_BONUS.jsonl.zst.81900894",
+          "sha256": "8190089465be56e4e44dec246f68e53f54774c39ca67d34f5be62647af87b1e9",
+          "size": 103929,
+          "url": "./math/chunks/books_BONUS.jsonl.zst.81900894"
+        }
+      ],
+      "name": "books_BONUS.jsonl.zst",
+      "sha256": "8190089465be56e4e44dec246f68e53f54774c39ca67d34f5be62647af87b1e9",
+      "size": 103929
+    },
+    {
+      "chunks": [
+        {
+          "fileName": "books_BASE.jsonl.zst.b1fa9165",
+          "sha256": "b1fa9165f32b47136bfbcf2569423dc7d547296135494b50281b0015abefe29d",
+          "size": 34819,
+          "url": "./math/chunks/books_BASE.jsonl.zst.b1fa9165"
+        }
+      ],
+      "name": "books_BASE.jsonl.zst",
+      "sha256": "b1fa9165f32b47136bfbcf2569423dc7d547296135494b50281b0015abefe29d",
+      "size": 34819
+    }
+  ],
+  "schemaVersion": 2
+}

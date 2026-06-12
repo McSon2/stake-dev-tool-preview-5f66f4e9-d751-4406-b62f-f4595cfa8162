@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460">
+  <!-- FORTUNE NEKO — bannière intro/outro free spins (textes rendus par le jeu) -->
+  <defs>
+    <linearGradient id="fbRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C2182F"/>
+      <stop offset="1" stop-color="#6E0715"/>
+    </linearGradient>
+    <linearGradient id="fbGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE9A0"/>
+      <stop offset="1" stop-color="#D8920A"/>
+    </linearGradient>
+  </defs>
+  <!-- panneau principal -->
+  <rect x="40" y="60" width="680" height="350" rx="30" fill="url(#fbRed)" stroke="#3A1414" stroke-width="8"/>
+  <rect x="58" y="78" width="644" height="314" rx="22" fill="none" stroke="url(#fbGold)" stroke-width="7"/>
+  <!-- toit pagode -->
+  <path d="M16 70 Q380 -2 744 70 L716 102 Q380 38 44 102 Z" fill="url(#fbGold)" stroke="#3A1414" stroke-width="7"/>
+  <path d="M340 22 L420 22 L408 -2 Q380 -12 352 -2 Z" fill="url(#fbGold)" stroke="#3A1414" stroke-width="6"/>
+  <!-- lanternes pendantes -->
+  <g>
+    <g transform="translate(86,118)">
+      <path d="M0 -22 L0 -6" stroke="#3A1414" stroke-width="5"/>
+      <ellipse cx="0" cy="20" rx="22" ry="27" fill="#FFC93C" stroke="#3A1414" stroke-width="5"/>
+      <rect x="-11" y="-10" width="22" height="9" rx="4" fill="#3A1414"/>
+      <rect x="-11" y="42" width="22" height="9" rx="4" fill="#3A1414"/>
+    </g>
+    <g transform="translate(674,118)">
+      <path d="M0 -22 L0 -6" stroke="#3A1414" stroke-width="5"/>
+      <ellipse cx="0" cy="20" rx="22" ry="27" fill="#FFC93C" stroke="#3A1414" stroke-width="5"/>
+      <rect x="-11" y="-10" width="22" height="9" rx="4" fill="#3A1414"/>
+      <rect x="-11" y="42" width="22" height="9" rx="4" fill="#3A1414"/>
+    </g>
+  </g>
+  <!-- pampilles bas -->
+  <g stroke="#3A1414" stroke-width="5">
+    <path d="M180 410 L180 432 M380 410 L380 438 M580 410 L580 432"/>
+    <circle cx="180" cy="440" r="9" fill="url(#fbGold)"/>
+    <circle cx="380" cy="446" r="10" fill="url(#fbGold)"/>
+    <circle cx="580" cy="440" r="9" fill="url(#fbGold)"/>
+  </g>
+  <!-- étincelles -->
+  <g fill="#FFE9A0" stroke="#3A1414" stroke-width="3">
+    <path d="M120 36 L126 48 L139 50 L129 58 L132 71 L120 64 L108 71 L111 58 L101 50 L114 48 Z"/>
+    <path d="M640 32 L645 42 L656 44 L648 51 L650 62 L640 56 L630 62 L632 51 L624 44 L635 42 Z"/>
+  </g>
+</svg>

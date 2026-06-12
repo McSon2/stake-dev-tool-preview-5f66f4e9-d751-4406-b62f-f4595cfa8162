@@ -1,0 +1,8 @@
+{
+  "gameSlug": "fortune-neko",
+  "gameEntry": "./game/index.html",
+  "mathBaseUrl": "./math",
+  "lang": "en",
+  "currency": "USD",
+  "device": "desktop"
+}

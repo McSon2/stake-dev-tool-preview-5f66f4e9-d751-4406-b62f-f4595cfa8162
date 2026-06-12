@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- FORTUNE NEKO — burst d'explosion de symbole (scale+fade géré par le code) -->
+  <defs>
+    <radialGradient id="burstCore" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF8DC"/>
+      <stop offset="0.4" stop-color="#FFD75E"/>
+      <stop offset="1" stop-color="#FFC93C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="86" fill="url(#burstCore)"/>
+  <g fill="#FFE08A">
+    <path d="M100 8 L108 64 L100 78 L92 64 Z"/>
+    <path d="M100 192 L108 136 L100 122 L92 136 Z"/>
+    <path d="M8 100 L64 92 L78 100 L64 108 Z"/>
+    <path d="M192 100 L136 92 L122 100 L136 108 Z"/>
+    <path d="M35 35 L74 62 L80 76 L62 74 Z"/>
+    <path d="M165 35 L126 62 L120 76 L138 74 Z"/>
+    <path d="M35 165 L62 126 L76 120 L74 138 Z"/>
+    <path d="M165 165 L138 126 L124 120 L126 138 Z"/>
+  </g>
+  <g fill="#FFF6D8">
+    <circle cx="100" cy="100" r="20"/>
+    <circle cx="146" cy="84" r="5"/>
+    <circle cx="56" cy="116" r="5"/>
+    <circle cx="116" cy="148" r="4"/>
+    <circle cx="84" cy="52" r="4"/>
+  </g>
+</svg>
